@@ -1,1 +1,3 @@
-# Algo
+# Algorithms.
+        1>BINARY TO DECIMAL CONVERSION IN C.
+        2>DECIMAL TO BINARY CONVERSION IN C.
