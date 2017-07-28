@@ -1,0 +1,31 @@
+
+void insert_at_end()
+{
+		struct node *new_node,*current;
+
+		new_node=(struct node *)malloc(sizeof(struct node));
+
+		if(new_node == NULL)
+		   printf("ll EMPTY");
+
+		 printf("Enter the data");
+
+		 scanf("%d",&new_node->data);
+		 new_node->next=NULL;
+
+		 if(start==NULL)
+		 {
+		   start=new_node;
+		   current=new_node;
+		 }
+
+		 else
+		 {
+		   temp = start;
+		     while(temp->next!=NULL)
+		     {
+		     temp = temp->next;
+		     }
+		   temp->next = new_node;
+		 }
+}
